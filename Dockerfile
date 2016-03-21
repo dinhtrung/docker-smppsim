@@ -1,4 +1,4 @@
-FROM java
+FROM docker.io/anapsix/alpine-java
 MAINTAINER Trung Nguyen Dinh <nguyendinhtrung141@gmail.com>
 
 RUN mkdir -p /opt/local
