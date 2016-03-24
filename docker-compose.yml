@@ -1,0 +1,6 @@
+smppsim:
+  image: nguyendinhtrung141/smppsim
+  volumes:
+    - ./conf:/opt/local/SMPPSim/conf
+  ports:
+    - 2775:2775
